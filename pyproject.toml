@@ -1,0 +1,16 @@
+[project]
+name = "uv-docker-sample"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "e213d18250504ba584359829bd5deca1",
+    "flask>=3.1.0",
+    "flask-sqlalchemy>=3.1.1",
+    "gunicorn>=23.0.0",
+    "numpy>=2.0.2",
+]
+
+[tool.uv.sources]
+e213d18250504ba584359829bd5deca1 = { git = "https://github.com/e0732951/e213d18250504ba584359829bd5deca1.git" }
